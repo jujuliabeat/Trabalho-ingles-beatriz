@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en pt-br">
+<head>
+    <title> Trabalho de Inglês - Juh </title>
+    <link rel="stylesheet" href="tbIngles.css" type="text/css">
+</head>
+<body> 
+    <div id="container">
+        <div id="cartaz">
+            <img src="https://portalpopline.com.br/wp-content/uploads/2022/05/top-gun-maverick.jpg">
+            <p>https://portalpopline.com.br/wp-content/uploads/2022/05/top-gun-maverick.jpg</p>
+        </div>
+        <div id="sinopse">
+                <h1> Top Gun: Maverick </h1>
+                <h4> Movie Review by Júlia Beatriz, IFPR</h4>
+
+            <div class="rating">
+
+            <h4 class="p"> PG-13</h4> 
+            <p id="age">&check;</p>
+
+            <p><span id="star">&#11088;&#11088;&#11088;&#11088;</span>★</p>
+            <p id="class"> 4.9</p>
+        </div>
+         
+            <h4>Duration: 2h 11m / 131 minutes </h4> 
+            <h4> The drama of the best naval aviators from the US in search to complete a mission that challenges the physics and engineering. 
+            </h4>
+            <h4> Joseph Kosinski | Chris Lebenzon and Eddie Hamilton | May 26, 2022 </h4>
+
+            <div class="buttons">
+            <button class = "botao" id="save" onclick="heart()">&#9829; Save</button>
+            <button class = "botao" id="badRate" onclick="heart2()"> &#128078; Rate movie</button> &nbsp;&nbsp;
+            <a href="https://youtu.be/giXco2jaZ_4" title="Download movie" class="botao"> Official Trailer (2022 Movie) - Tom Cruise </a>
+        </div>
+
+        </div>
+        <div id="texto">
+            <h3> What is the film about? </h3>
+                <h4> The events of this cinematic work take place 30 years after the events of “Top Gun (1986)”. In this new film, a new mission is about to take place in the navy:
+                    Destroy an enemy nuclear threat, hidden among hills where drones are not
+                    enough and only extreme human skill can arrive. The best of the pilots of a new batch of aces are there, but you need a teacher to
+                    handle the classic F-18 fighters. And who is set to be the instructor is Pete “Maverick” (Tom
+                    Cruise), who has the reputation of a legend, even though he still is discredited by the
+                    senior officers of the armed forces. Upon returning to the team, the pilot is face to face with the
+                    Bradshaw (Miles Teller), son of his best friend and former co-pilot, Goose
+                    (Anthony Edwards), who died during a combat simulation in which he was partnered
+                    with Mav. In the midst of this specialized mission, a rivalry is created between them, while
+                    the protagonist needs to relive ghosts from the past to sacrifice himself in another harmful military service                 
+                </h4>
+            <h3> My Opinion </h3>
+                <h4> A film with great visual effects and an exciting and engaging story, it encourages
+                    people to follow their dreams, their instincts, to believe that you are capable. the film
+                    also shows that Resilience and Teamwork are the keys to success
+                    of any problem or mission faced in life, people need to remember that we can't do everything by ourselves, sometimes we need others who can
+                    give us the support we need, who can be by our side and help us, our 
+                    arrogance and pride can often be our own obstacles.
+                </h4>
+            <h3> Recomendation </h3>
+                <h4> This film is recommended for those who like adrenaline, romance of the typical
+                    family drama and obviously, Planes and almost impossible missions. If you are one of those who didn't watch the first film, it's fine, because Top Gun: Maverick 
+                    holds up perfectly as a solo film. However, having attended or at least known
+                    some points in the history of the 1980s is important to contextualize the relationship of some characters and understand their motivations in the current film
+                </h4>
+        </div>
+        <div id="rodape">
+            <h4 style="color: white; text-align: center;"> “There is a moment in every person’s life when it is possible to dream and make our dreams come true… and this fleeting moment is called the present and lasts for the time that passes.” (Mario Quintana) </h4>
+        </div>
+    </div>
+
+    <script>
+        function heart(){
+           var bt = document.getElementById('save');
+           bt.style.color = 'red';
+    
+           var br = document.getElementById('badRate');
+           br.style.color = 'white';
+        }
+        function heart2(){
+           var br = document.getElementById('badRate');
+           br.style.color = 'red';
+    
+           var bt = document.getElementById('save');
+           bt.style.color = 'white';
+        }
+    
+    </script>
+
+
+</body>
+</html>
